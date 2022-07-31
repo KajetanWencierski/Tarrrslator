@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tarrrslator</string>
+    <string name="empty_login_or_password_toast_message">Enter login and password!</string>
+    <string name="incorrect_password_or_password_toast_message">Incorrect login or password!</string>
+    <string name="user_already_exists">User already exists!</string>
+    <string name="empty_english_or_pirate_toast_message">Make sure all the fields are filled!</string>
+    <string name="successful_addition_of_translation_toast_message">The translation has been added!</string>
+
+    <string name="home_tab">About</string>
+    <string name="kat1_tab">Translate</string>
+    <string name="kat2_tab">Revise</string>
+
+    <string name="english_add_text">English: </string>
+    <string name="pirate_add_text">Pirate: </string>
+    <string name="add_button">Add</string>
+    <string name="translate_button">Translate</string>
+    <string name="title_top">Always wanted to learn Pirate Speak? Here is how! Check out our new flashcard application for Android! You can translate words, phrases and the whole sentences without a sighs! With revision section hard words won’t slip your mind, use flashcards to help you stay on the track with Pirate Speak! Login and try it out – Arrr!</string>
+
+    <string name="translate_string">Translate: </string>
+    <string name="check_button">Check</string>
+    <string name="refresh_button">Next</string>
+    <string name="delete_button">Delete</string>
+    <string name="no_translation_found_message">You haven\'t added any translations yet!</string>
+    <string name="correct_answer_message">Correct!</string>
+    <string name="wrong_answer_message">Not quite, the correct answer is:</string>
+
+</resources>

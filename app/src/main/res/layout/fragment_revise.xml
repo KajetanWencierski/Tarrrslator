@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/translate_string"
+        android:text="@string/translate_string"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/english_sentence"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:lines="5"
+        android:background="@color/textNotEditableBackground"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/pirate_tentence"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:background="@color/textBackground"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:text="@string/check_button"
+            android:id="@+id/check_button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:text="@string/refresh_button"
+            android:id="@+id/refresh_button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:text="@string/delete_button"
+            android:id="@+id/delete_button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
